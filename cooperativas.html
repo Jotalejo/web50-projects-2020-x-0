@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cooperative</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .grid {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: auto auto auto;
+            }
+            .grid-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+            .grid-item2 {
+                background-color: white;
+                font-size: 15px;
+                padding: 20px;
+                text-align: left;
+            }
+            .gridF1 {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: auto 311px 160px;
+            }
+            .gridF2 {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 50px 15px auto;
+            }
+            h1 {
+                padding: 10px;
+                color: orange;
+                text-decoration-line: underline;
+            }
+        </style>
+        <div class="container">
+            <div class="row" class="col-1" style="grid-row: template columns 100px auto;">
+                <h1>Associate Cooperatives</h1>
+                <div class="col-7" style="padding:20px;text-align: right;">
+                    <a href="..\links\index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">HOME</a>
+                    <a href="..\links\mnucruces.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Last</a>
+                </div>
+            </div>
+        </div>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="grid-item">Cooperative #1</div>
+            <div class="grid-item">Cooperative #2</div>
+            <div class="grid-item">Cooperative #3</div>
+            <div class="grid-item">Cooperative #4</div>
+            <div class="grid-item">Cooperative #5</div>
+        </div> <br>
+        <hr>
+        <div>
+          <h2 style="margin-left:20px">PARTICIPATION :</h2>
+        </div>
+        <div class="gridF1">
+            <div class="grid-item">Cooperative #1 <span style="font-size:62px; color:orange;"> 62% </span></div>
+            <div class="grid-item">Cooperative #2 <span style="font-size:22px; color:orange;"> 22% </span></div>
+            <div class="grid-item">Cooperative #3 <span style="font-size:15px; color:orange;"> 11% </span></div>
+        </div>
+        <div class="gridF2">
+            <div class="grid-item2">Coop #4 <span style="font-size:11px; color:orange;"> 4% </span></div>
+            <div class="grid-item2">Coop #5 <span style="font-size:11px; color:orange;"> 1% </span></div>
+        </div>
+    </body>
+</html>

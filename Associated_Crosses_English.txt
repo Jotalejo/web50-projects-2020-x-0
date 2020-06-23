@@ -1,0 +1,45 @@
+Hello Anyone.
+
+I am Jorge Alejandro Pinto, Systems Engineer from the Catholic University of Colombia in Bogotá.
+At the moment I am developing custom applications, I have worked mainly with Java and MySQL. I also develop Apps in React Native and implementing web pages in wordpress with Godaddy hosting.
+
+Now I want to develop applications in a Full Stack web environment, therefore I am very grateful for this EDX Online courses from Harvard University, because I am catching up on web programming and taking advantage of the time during this difficult time for humanity. , to put my new knowledge acquired at the service of my clients, friends and family.
+
+Next we have the application for project 0. This is a real application, it is a specific request made by a client. In this beginning it will not be 100% operational, but with the Python and SQL modules it will be fully operational.
+Project 0: It is an application that will contain 4 modules.
+Here is a very simple example of the Main Menu, but the idea is to develop it with better effects with the bootstrap.
+In the options we can see 4 modules to be developed.
+
+Module I is the cross of information from 5 databases, corresponding to 5 companies in the cooperative sector in which it is necessary to know if a certain affiliate is in 1 or 2 or 3, etc. or in the 5 cooperatives in order to generate the collection accounts for each of the cooperatives, for example if it is in one, then it must pay USD30 for that member,
+ if it is in two cooperatives, it must pay USD $ 15 each, if the member is in 3 cooperatives, then each one must pay USD $ 10 for that member and so on. So the idea is to calculate the value to be paid by each cooperative and show a summary for each one to generate the respective charge account.
+In Module II we will provide a quotation for funeral expenses plans cover.
+In Module III we have the information management of a Solid Waste Incinerator Furnace.
+And in Module IV the risk management of the company will be managed.
+At the bottom is the logo of the software developer, which is me. JOTALEJO (Jorge A. Pinto). Here is the hyperlink to the developer's website and when you click on it, it opens a new page and places us directly on the page of the one making the software http://www.jotalejo.com/
+
+We go to Menu # I of Crosses and a submenu appears with the options of Main, Processes and Reports. This Option I, Associate Crossing, is about determining how many members cross from one cooperative to another.
+In the Cooperatives option we will find the 5 associates, in which the first has a 62% participation, the largest being, the second, 22%, the third 11%, the fourth 4% and the fifth 1%. Here you can see the use of the Grid, CSS and BootStrap styles are also being used, for example for the buttons. In the gray button that says Previous, it returns to the previous menu and in the blue button of Home, it returns to the first initial page.
+
+Now we continue by affiliates and there it shows me the use of the columns and here it is going to show the affiliate code and all the additional information that will be brought from the database that in my case I am going to use MySQL, it will also bring the identification of the affiliate, names, surnames and some notes. Towards the end it has a button operation like the ones in the previous menu.
+
+In the part of summaries we are going to find two buttons that when you click on it (on the green button) will generate a report with the General Summary of the crossing process, on the red button, you click on it and bring a Detail of the process of crosses and in case no information is found, display the bootstrap alert of:  No information to display! :(.  That's it for the main query.
+
+In the process part we have the Cross button, the first option or task that we must execute is to upload the .csv flat files, these files contain a date, therefore I can select them by this field, choosing a specific date to process.
+
+Here we can notice that for the effects highlighted in green, orange and red, SASS is being used, as well as Bootstrap.
+
+Continuing with the options and after choosing the date, the cooperatives to cross are chosen and at the end they can see the names of the files that I am going to use. They have the same button system to return to the Previous or Main Menu.
+After this main process we find a section for special reports, there another bootstrap effect was used, which are alerts that can be eliminated.
+The idea is that if I click on the green process button, the process option is added and run the report, or if you want, you can delete it and the same happens for inputs (red button) and outputs (gray button ).
+In the reports and processes and in general all the operation of the page is going to start to hang as we move forward in the readings of python and SQL, because everything interacts with a database in MySQL. Here I can also use the Previous button to return, there (I Associated Crossing) we can see at the end a button with a bootstrap style to return to the beginning.
+
+In general terms, what the application does is process some files to cross the information contained therein.
+
+In Module II, Plan quote, we can find a page that directs a form or an example page with section management.
+Here several styles are being used to use CSS.
+
+For the link to the private page we can find the form for private associates in which we find several fields to capture information with the different components of a form such as text capture fields, radio buttons, drop-down lists and a Date type field that captures the date of birth, it has a button next to it that calculates the years of the entered age. 
+This calculation process is done with a portion of Java Script code and places it on the form. Obviously this code is going to be corrected a bit when we see this section in the readings. If the form screen is minimized below 850 pixels, the mobile responsive theme will be noticed there, which places an orange background and places the smaller forms below the main one and also places the navigation buttons at the end.
+With the Start button, I return to the main menu. So this would be all for now for project 0.
+
+Thank you for your attention. Bye bye.

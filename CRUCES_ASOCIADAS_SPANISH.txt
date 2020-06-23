@@ -1,0 +1,58 @@
+A continuación tenemos la aplicación para el proyecto 0.  
+Esta es una aplicación real, es un requerimiento puntual  que me ha hecho un cliente.  En este comienzo no estará 100% operativa, pero con los módulos de Python y SQL quedará completamente operativa.
+Proyecto 0:  Es una aplicación que va a contener 4 módulos.
+
+Acá hay un ejemplo del Menú Principal muy sencillo, pero la idea es desarrollarlo con mejores efectos con el bootstrap.
+En las opciones podemos ver 4 módulos que se van a desarrollar.
+
+El Módulo I es el cruce de información de 5 bases de datos, correspondientes a 5 empresas del sector cooperativo en la cual se debe saber si un afiliado determinado está en 1 ó 2 o 3, etc. o en las 5 cooperativas con el fin de generar las cuenta de cobro a cada una de las cooperativas, por ejemplo si está en una, entonces debe cancelar por ese asociado el valor de USD $30, si está en dos cooperativas, debe cancelar USD $15 cada una, si el afiliado está en 3 cooperativas, entonces cada una debe pagar USD $10 por ese afiliado y así sucesivamente.  Entonces la idea es calcular el valor a pagar por cada cooperativa y mostrar un resumen por cada uno para generar la respectiva cuenta de cobro.
+En el Módulo II vamos a proveer un cotizador de planes excequiales o funerarios.
+
+En el Módulo III tenemos el manejo de la información de un Horno Incinerador de residuos sólidos.
+
+Y en el Módulo IV se va a manejar la gestión del riesgo de la empresa .
+
+En la parte inferior está el logotipo del desarrollador del software, que soy yo.  JOTALEJO (Jorge A. Pinto).  
+Acá está el hipervínculo a la página web del desarrollador y al darle click, nos abre una página nueva y nos 
+ubica directamente en la pagina del que está haciendo el software http://www.jotalejo.com/
+
+Vamos al Menú # I de Cruces y aparece un submenú con las opciones de Principal, Procesos y Reportes.  
+Esta Opción I, Cruce de Asociados, se trata de determinar cuántos afiliados se cruzan de una cooperativa a la otra.
+En la opción de Cooperativas encontraremos las 5 asociadas, en la cual, la primera tiene una participación del 62% 
+siendo la más grande, la segunda del 22%, la tercera del 11%, la cuarta 4% y la quinta  del  1%.  
+Acá se puede observar la utilización del Grid, también se están utilizando estilos CSS y BootStrap, por ejemplo 
+para los botones.  En el botón gris que dice Anterior se devuelve al  menú que lo antecede y en el botón azul de Inicio, 
+se devuelve a la primera página inicial.
+
+Ahora seguimos por afiliados y allí me muestra el uso de las columnas y aquí se va a mostrar el código del afiliado y 
+toda la información adicional que se traerá de la base de datos que en mi caso voy a utilizar MySQL, también traerá la 
+identificación del afiliado, nombres, apellidos y algunas notas.  Hacia el final tiene un manejo de botones igual que 
+los del menú anterior.
+
+En la parte de resúmenes vamos a encontrar dos botones que al darle click (en el botón verde) van a generar un reporte 
+con el Resumen General  del proceso de cruces, en el botón rojo, se le da click y trae un Detalle del proceso de cruces 
+y en caso de no encontrar información, muestre la alerta de bootstrap de :  No hay información para mostrar! :(.  
+Eso es todo por la consulta principal.
+
+En la parte de procesos tenemos el botón de Cruce, la primera opción o tarea que debemos ejecutar es subir los archivos 
+planos .csv  , estos archivos contienen una fecha, por lo tanto puedo seleccionarlos por este campo, escogiendo una fecha 
+específica para procesar.
+
+Acá podemos notar que para los efectos resaltados en verde, naranja y rojo se está utilizando SASS y también Bootstrap.
+Continuando con las opciones y después de escoger la fecha, se escogen  las cooperativas  a cruzar y en la parte final 
+se pueden ver los nombres  de los archivos que voy a utilizar.  Tienen el mismo sistema de botones para volver al 
+Menú Anterior o Principal.
+
+Después de éste proceso principal encontramos una sección de reportes especiales, allí se utilizó otro efecto del bootstrap, 
+que son unas alertas que se pueden eliminar.
+
+La idea es que si le doy click en el botón verde de procesos, se agregue la opción de procesos y ejecute el reporte, 
+o si se desea, que lo pueda eliminar y lo mismo sucede para entradas (botón rojo) y salidas (botón gris).
+
+En los reportes y procesos y en general todo el funcionamiento de la página se va a empezar a colgar en la medida que 
+avancemos en las lecturas de python y SQL, porque todo interactúa con una base de datos en MySQL.  
+
+Acá también puedo utilizar el botón de Anterior para devolverme, allí (I Cruce Asociadas) podemos ver al final un botón 
+con un estilo de bootstrap para regresar al inicio.
+
+En términos generales lo que hace la aplicación es procesar unos archivos para cruzar la información allí contenida.

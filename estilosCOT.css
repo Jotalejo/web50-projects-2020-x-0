@@ -1,0 +1,40 @@
+/* Estilo para las COTIZACIONES - Página general */
+h2 {
+    color:darkgreen;    
+}
+h3 {
+    color:lightseagreen;
+}
+p {
+    font-weight: bold;
+}
+legend{
+    font-weight:bold ;
+}
+fieldset {
+    padding: 10px; width: 21%;
+}
+/* @media (max-width: 400px) {
+    legend::before {
+        padding: 10px; width: 50%;
+    }                    
+} 
+@media (min-width: 399px) {
+    legend::before {
+        padding: 10px; width: 21%;
+    }
+} */
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: green;
+}
+button:hover {
+    background-color: orange;
+}
+a::before {
+    content: "\21d2  Click Here: ";
+    font-weight: bold;
+}
