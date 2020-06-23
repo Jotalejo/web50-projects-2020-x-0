@@ -23,7 +23,7 @@ respective **charge account**.
 #### Developer
 [jotalejo.com](http://www.jotalejo.com/ "developer page")
 
-![JOTALEJO](/links/LOGO_JOTALEJO_ppal.png "JOTALEJO - SYSTEMS AND SOFTWARE")
+![JOTALEJO](LOGO_JOTALEJO_ppal.png "JOTALEJO - SYSTEMS AND SOFTWARE")
 
 <!-- for code paste use : ' code ' or: several lines '''  block code   ''' -->
 <!-- languaje: javacript, then use that word for show colors: '''javascript and then paste the code -->
