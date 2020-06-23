@@ -38,5 +38,5 @@ respective **charge account**.
 [![Asso Cross 1/2](https://www.youtube.com/watch?v=4J9CTXRDyQo&list=PL5T_5recv-PKpefFTmjTlxQOC-ODds5ye&index=3&t=57s)]
 
 ### Associated crosses 2/2 :
-[![Asso Cross 2/2](https://www.youtube.com/watch?v=ihEEsHLZ82c&list=PL5T_5recv-PKpefFTmjTlxQOC-ODds5ye&index=3)](https://www.youtube.com/watch?v=ihEEsHLZ82c&list=PL5T_5recv-PKpefFTmjTlxQOC-ODds5ye&index=3)
+[![Asso Cross 2/2]](https://www.youtube.com/watch?v=ihEEsHLZ82c&list=PL5T_5recv-PKpefFTmjTlxQOC-ODds5ye&index=3)
 
